@@ -19,13 +19,6 @@
 
 #pragma once
 
-/* USB Device descriptor parameter */
-#define VENDOR_ID  0x4D58   // MX
-#define PRODUCT_ID 0xAB87   // abelx keyboard
-#define DEVICE_VER 0x0001
-#define MANUFACTURER MATRIX
-#define PRODUCT ABELX
-
 /* key matrix size */
 #define MATRIX_ROWS 6
 #define MATRIX_COLS 16
@@ -34,7 +27,7 @@
 #define GET_PORT(pp) (((pp) >> 8) & 0xFF)
 #define GET_PIN(pp) ((pp) & 0xFF)
 
-#define MATRIX_ROW_PINS { \
+#define CUSTOM_MATRIX_ROW_PINS { \
     DEF_PIN(TCA6424_PORT2, 7), \
     DEF_PIN(TCA6424_PORT2, 6), \
     DEF_PIN(TCA6424_PORT2, 0), \
@@ -42,7 +35,7 @@
     DEF_PIN(TCA6424_PORT2, 4), \
     DEF_PIN(TCA6424_PORT2, 5) }
 
-#define MATRIX_COL_PINS { \
+#define CUSTOM_MATRIX_COL_PINS { \
     DEF_PIN(TCA6424_PORT2, 1), \
     DEF_PIN(TCA6424_PORT1, 7), \
     DEF_PIN(TCA6424_PORT1, 6), \
@@ -85,7 +78,6 @@
 #define COL15_MASK 0x04
 #define COL16_MASK 0x02
 
-#define UNUSED_PINS
 
 #define DIODE_DIRECTION COL2ROW
 #define DEBOUNCE    5
