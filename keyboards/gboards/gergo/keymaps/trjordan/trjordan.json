@@ -168,7 +168,7 @@
       "KC_TRNS",
       "ANY(LCTL(LSFT(KC_TAB)))",
       "LCTL(KC_TAB)",
-      "KC_NO",
+      "LGUI(KC_GRV)",
       "KC_TRNS",
       "ANY(LGUI(LSFT(KC_7)))",
       "KC_UP",
