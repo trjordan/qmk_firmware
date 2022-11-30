@@ -26,3 +26,8 @@
 
 // Lets you roll mod-tap keys
 #define IGNORE_MOD_TAP_INTERRUPT
+
+#define PERMISSIVE_HOLD
+#define DEBOUNCING_DELAY 7
+#undef DEBOUNCE
+#define DEBOUNCE 7
