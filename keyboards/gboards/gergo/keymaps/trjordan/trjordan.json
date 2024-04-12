@@ -59,8 +59,8 @@
       "MO(3)"
     ],
     [
-      "LGUI(KC_SLSH)",
-      "KC_TRNS",
+      "LGUI(KC_BSLS)",
+      "KC_PLUS",
       "KC_PIPE",
       "KC_LCBR",
       "KC_RCBR",
