@@ -108,7 +108,7 @@
       "KC_TRNS",
       "KC_0",
       "KC_TRNS",
-      "KC_0"
+      "KC_TRNS"
     ],
     [
       "KC_TRNS",
@@ -181,7 +181,7 @@
       "LGUI(KC_3)",
       "LGUI(KC_4)",
       "LGUI(KC_5)",
-      "KC_PGUP",
+      "KC_TRNS",
       "ANY(LGUI(LCTL(LSFT(KC_4))))",
       "ANY(LCTL(LGUI(KC_LEFT)))",
       "KC_LEFT",
@@ -195,11 +195,11 @@
       "LGUI(KC_8)",
       "LGUI(KC_9)",
       "LGUI(KC_0)",
-      "KC_PGDN",
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
-      "KC_MS_L",
+      "KC_TRNS",
+      "MS_LEFT",
       "LGUI(KC_TAB)",
       "LCTL(KC_F3)",
       "LGUI(KC_TILD)",
